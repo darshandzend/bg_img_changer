@@ -1,0 +1,23 @@
+{
+    "name": "Change Background Image",
+    "description": "Changes Background Image. Also, launches a rocket to Moon.",
+    "version": "0.1",
+    "permissions": [
+    "https://trello.com/*"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+
+    "content_scripts": [
+        {
+        "matches": [
+            "http://trello.com/*",
+            "https://trello.com/*"
+            ],
+        "js": ["bgchange.js"],
+        "run_at": "document_end"    
+        }
+    ], 
+    "manifest_version":2
+}
