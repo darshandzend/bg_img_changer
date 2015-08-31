@@ -5,6 +5,6 @@ I created this mainly to set custom backgrounds for my boards at trello.com, a f
 
 Current status:
 Initial commit
-> Need a popup.html that contains the (page url) -> (image url) hash.
-> Need to save the hash
-> Need a CRUD for mappings.
+- Need a popup.html that contains the (page url) -> (image url) hash.
+- Need to save the hash
+- Need a CRUD for mappings.
