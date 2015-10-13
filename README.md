@@ -1,10 +1,6 @@
 # bg_img_changer
 A Chrome extension that changes background Image according to URL to image hash.
 
-I created this mainly to set custom backgrounds for my boards at trello.com, a feature available only for premium users. However, this is a simple functionality and can be used for any given url.
 
-Current status:
-Initial commit
-- Need a popup.html that contains the (page url) -> (image url) hash.
-- Need to save the hash
-- Need a CRUD for mappings.
+<h3> ABANDONED!</h3>
+Created this mainly to learn making chrome extensions and to set custom backgrounds on trello.com boards (despite being a free user [;) )](https://xkcd.com/541/)
